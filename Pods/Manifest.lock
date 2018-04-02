@@ -1,0 +1,15 @@
+PODS:
+  - OCHamcrest (7.0.2)
+  - OCTotallyLazy (1.1.0)
+
+DEPENDENCIES:
+  - OCHamcrest (~> 7.0)
+  - OCTotallyLazy
+
+SPEC CHECKSUMS:
+  OCHamcrest: 706bfbf69a3df55a873bad096014e80e2e8ca93c
+  OCTotallyLazy: c8838ee6491e4b3ca3fe83ac6211249ab2108101
+
+PODFILE CHECKSUM: beab84ae348e3440daeb31c061813c000303612f
+
+COCOAPODS: 1.2.1

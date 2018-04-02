@@ -1,4 +1,4 @@
-#import <OCHamcrestIOS/OCHamcrestIOS.h>
+#import <OCHamcrest/OCHamcrest.h>
 #import "Card.h"
 #import "Category.h"
 #import "NSString+Helpers.h"
