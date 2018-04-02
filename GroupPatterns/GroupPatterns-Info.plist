@@ -10,11 +10,6 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>icon_57.png</string>
-		<string>icon_114.png</string>
-	</array>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -31,6 +26,8 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Storyboard</string>
 	<key>UISupportedInterfaceOrientations</key>
