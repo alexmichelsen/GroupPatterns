@@ -447,10 +447,6 @@
 		CBB9C1192072D8D600C882AC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB9C1182072D8D600C882AC /* Launch Screen.storyboard */; };
 		CBB9C11B2072D9BE00C882AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB9C11A2072D9BE00C882AC /* Images.xcassets */; };
 		EC4CBC0713F86769009DBED9 /* CardListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4CBC0513F86769009DBED9 /* CardListController.m */; };
-		EC5097411403392F00800981 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5097401403392F00800981 /* icon_57.png */; };
-		EC5097431403393B00800981 /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5097421403393B00800981 /* icon_114.png */; };
-		EC5097451403394400800981 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5097441403394400800981 /* Default.png */; };
-		EC5097471403394C00800981 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5097461403394C00800981 /* Default@2x.png */; };
 		EC50974914033B9E00800981 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = EC50974814033B9E00800981 /* iTunesArtwork */; };
 		EC509750140347EA00800981 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC50974F140347EA00800981 /* QuartzCore.framework */; };
 		ECB93FFC13F85F19001B8F09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB93FFB13F85F19001B8F09 /* UIKit.framework */; };
@@ -1432,7 +1428,7 @@
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					ECB93FF613F85F19001B8F09 = {
-						DevelopmentTeam = M3DTZN9V9B;
+						DevelopmentTeam = 3V7CF2UD6R;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1576,10 +1572,6 @@
 				ECB9400613F85F19001B8F09 /* InfoPlist.strings in Resources */,
 				ECB9400F13F85F19001B8F09 /* MainWindow.xib in Resources */,
 				ECB9401513F85F19001B8F09 /* RootViewController.xib in Resources */,
-				EC5097411403392F00800981 /* icon_57.png in Resources */,
-				EC5097431403393B00800981 /* icon_114.png in Resources */,
-				EC5097451403394400800981 /* Default.png in Resources */,
-				EC5097471403394C00800981 /* Default@2x.png in Resources */,
 				EC50974914033B9E00800981 /* iTunesArtwork in Resources */,
 				3F71B058162AA9A800B62E7C /* Default-568h@2x.png in Resources */,
 				3F442A34162B9B05000322AE /* Storyboard.storyboard in Resources */,
@@ -2165,12 +2157,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = M3DTZN9V9B;
+				DEVELOPMENT_TEAM = 3V7CF2UD6R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -2195,12 +2186,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = M3DTZN9V9B;
+				DEVELOPMENT_TEAM = 3V7CF2UD6R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
