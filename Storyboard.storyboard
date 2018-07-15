@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="Pw3-CB-KsW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="Pw3-CB-KsW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,24 +25,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="launch_640x1136.png" translatesAutoresizingMaskIntoConstraints="NO" id="9xK-LA-IhE">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhF-QH-6xZ">
-                                <rect key="frame" x="87" y="173" width="200" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="22x-2N-Qd0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="About the Patterns">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="m1S-XO-Hij" kind="push" id="0hs-eK-3aN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9p1-Vg-3D8">
-                                <rect key="frame" x="87" y="211" width="200" height="30"/>
+                                <rect key="frame" x="87" y="299.5" width="200" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="See the Deck">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,7 +40,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JU5-EQ-21l">
-                                <rect key="frame" x="87" y="249" width="200" height="30"/>
+                                <rect key="frame" x="87" y="337.5" width="200" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Deal Random Card">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -64,7 +54,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esg-OL-2xA">
-                                <rect key="frame" x="87" y="287" width="200" height="30"/>
+                                <rect key="frame" x="87" y="375.5" width="200" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Buy Printed Deck">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -90,6 +81,23 @@
                                     <segue destination="0Tt-OJ-tmz" kind="push" id="fRs-kA-Al9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhF-QH-6xZ">
+                                <rect key="frame" x="87" y="261.5" width="200" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="22x-2N-Qd0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="About the Patterns">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="m1S-XO-Hij" kind="push" id="0hs-eK-3aN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -97,6 +105,7 @@
                             <constraint firstItem="HhF-QH-6xZ" firstAttribute="centerX" secondItem="9xK-LA-IhE" secondAttribute="centerX" id="2zi-bS-kOi"/>
                             <constraint firstItem="9p1-Vg-3D8" firstAttribute="top" secondItem="HhF-QH-6xZ" secondAttribute="bottom" constant="8" symbolic="YES" id="4ej-bF-by3"/>
                             <constraint firstItem="Esg-OL-2xA" firstAttribute="trailing" secondItem="JU5-EQ-21l" secondAttribute="trailing" id="6qV-wW-YEf"/>
+                            <constraint firstItem="JU5-EQ-21l" firstAttribute="top" secondItem="h8J-2y-lx7" secondAttribute="centerY" constant="4" id="8Se-DH-ASZ"/>
                             <constraint firstAttribute="trailing" secondItem="Ewd-Rj-PjO" secondAttribute="trailing" constant="20" symbolic="YES" id="Cg3-9I-xYt"/>
                             <constraint firstItem="9p1-Vg-3D8" firstAttribute="trailing" secondItem="HhF-QH-6xZ" secondAttribute="trailing" id="H7w-01-fFS"/>
                             <constraint firstItem="Esg-OL-2xA" firstAttribute="leading" secondItem="JU5-EQ-21l" secondAttribute="leading" id="Jv7-Yq-KYo"/>
@@ -104,12 +113,11 @@
                             <constraint firstItem="9xK-LA-IhE" firstAttribute="trailing" secondItem="h8J-2y-lx7" secondAttribute="trailing" id="U0C-GW-sKl"/>
                             <constraint firstItem="JU5-EQ-21l" firstAttribute="leading" secondItem="9p1-Vg-3D8" secondAttribute="leading" id="VGF-Nq-z08"/>
                             <constraint firstAttribute="bottom" secondItem="Ewd-Rj-PjO" secondAttribute="bottom" constant="20" symbolic="YES" id="Y1A-qf-dmn"/>
-                            <constraint firstItem="JU5-EQ-21l" firstAttribute="top" secondItem="9p1-Vg-3D8" secondAttribute="bottom" constant="8" symbolic="YES" id="ZAU-6j-kBk"/>
                             <constraint firstItem="9xK-LA-IhE" firstAttribute="top" secondItem="h8J-2y-lx7" secondAttribute="top" id="Ztr-hb-aEu"/>
                             <constraint firstItem="9xK-LA-IhE" firstAttribute="leading" secondItem="h8J-2y-lx7" secondAttribute="leading" id="fBZ-gf-bma"/>
                             <constraint firstItem="Esg-OL-2xA" firstAttribute="top" secondItem="JU5-EQ-21l" secondAttribute="bottom" constant="8" symbolic="YES" id="gvE-4g-v4I"/>
+                            <constraint firstItem="JU5-EQ-21l" firstAttribute="top" secondItem="9p1-Vg-3D8" secondAttribute="bottom" constant="8" symbolic="YES" id="hvf-Nc-f2Y"/>
                             <constraint firstItem="JU5-EQ-21l" firstAttribute="trailing" secondItem="9p1-Vg-3D8" secondAttribute="trailing" id="iLU-nZ-ljR"/>
-                            <constraint firstItem="HhF-QH-6xZ" firstAttribute="top" secondItem="h8J-2y-lx7" secondAttribute="top" constant="173" id="vxk-pf-Beb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9Rc-ya-b3T"/>
