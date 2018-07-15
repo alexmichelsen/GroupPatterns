@@ -23,7 +23,7 @@
   UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
   label.backgroundColor = [UIColor clearColor];
   label.font = [UIFont boldSystemFontOfSize:16.0];
-  label.textColor = [UIColor whiteColor];
+  label.textColor = [UIColor blackColor];
   label.text = self.navigationItem.title;
   label.numberOfLines = 1;
   label.adjustsFontSizeToFitWidth = true;
@@ -34,7 +34,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  self.navigationItem.title = card.name;
+  self.title = card.name;
   [self makeTitleFit];
   [self loadHTMLString:[self cardHtml]];
 }
